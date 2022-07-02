@@ -1,0 +1,140 @@
+body{margin: 0;
+    background-color: rgb(26, 26, 26);
+    }
+
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    
+    
+   
+    
+    }
+    #hdrlg{
+        margin-top: auto;
+        margin-bottom: auto ;
+        
+    }
+    #hdrtx{
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #foto{
+        z-index: -1;
+        position: absolute;
+
+        
+        
+    }
+
+    #sametabi{
+        z-index: -1;
+        height: auto;
+    }
+
+
+
+    #hesap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        }
+    .hesap-link{
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
+        background-color: black;
+        text-align: center;
+        border-radius: 50px;
+        text-decoration: none;
+        
+        
+    }
+    .facebook{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .instagram{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .twitter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+        
+   
+    #content{
+
+        position:relative;
+        
+        
+    }
+    #içerik-başlık{
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;       
+    }
+    #içerikler{   
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100px;
+        flex-wrap: wrap;
+
+    }
+    #içerik-indir{
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;       
+        color: rgb(0, 0, 0);        
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 100px;
+        text-decoration: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;        
+        }
+        #içerik-indir:hover{
+         background-color: rgb(26, 26, 26);
+         border: 1px solid white;
+         margin-bottom: 48px;
+         color: white;
+                }
+        
+
+    #end{
+            
+            width: 100%;
+            background-color: black;
+            position: absolute;
+
+
+        }
+

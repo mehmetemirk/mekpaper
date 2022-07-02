@@ -1,0 +1,94 @@
+
+#hdrlg{
+    height: 45px;
+    width: 22,5px;
+    margin-right: 115px;
+
+}
+
+    #hdrtx{
+        font-size: 30px;
+    }
+
+    #header{
+        height: 80px;
+        
+        }
+    
+    #foto{
+        width:100%;
+   
+       }
+    .facebook{
+        margin-right: 100px;
+    }
+    .fcbk-icon{
+        width: 100px;
+        height: 100px;
+    }
+    .fcbk-link{
+        
+        font-size: 15px;
+        
+    }
+    .insta-icon{
+        width: 150px;
+        height: 150px;
+    }
+    .insta-link{
+        
+        font-size: 20px;
+        
+        
+    }
+    .twitter{
+        margin-left: 100px;
+    }
+    .twitter-icon{
+        width: 100px;
+        height: 100px;
+    }
+    .twitter-link{
+        
+        font-size: 15px;
+        
+        
+    }
+
+    .hesap-link{
+        padding: 8px 10px 8px 10px;
+    }
+    #içerik-başlık{
+        font-size: 50px;
+        padding: 30px 0px 30px 0px;
+
+    }
+    .wallpaper{
+        margin: 0px 20px 40px 20px;
+
+    }
+
+    .wallpaper-dikey{
+        
+        width: 200px;
+        height: 400px;
+
+
+    }
+
+    .wallpaper-yatay{
+
+        width: 680px;
+        height: 408px;
+    }
+    #içerik-indir{
+        font-size: 18px;
+        padding: 15px 30px 15px 30px;
+        margin-bottom: 50px;
+        width: 175px;
+        }
+
+        #end{
+            height: 250px;
+        }
+    
