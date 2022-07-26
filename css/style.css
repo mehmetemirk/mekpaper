@@ -1,24 +1,32 @@
-body{margin: 0;
+    body{
+    margin: 0;
     background-color: rgb(26, 26, 26);
     }
 
-
-#header{
+    #header{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     width: 100%;
-    
-    
-   
-    
+    position: fixed;
+    top: 0px;
+    z-index: 1;
     }
+
+    #header-isimarea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
     #hdrlg{
         margin-top: auto;
         margin-bottom: auto ;
         
     }
+
     #hdrtx{
         font-family: 'Raleway', sans-serif;
         font-weight: lighter;
@@ -26,78 +34,26 @@ body{margin: 0;
         margin-top: auto;
         margin-bottom: auto;
     }
-
-    #foto{
-        z-index: -1;
-        position: absolute;
-
-        
-        
-    }
-
-    #sametabi{
-        z-index: -1;
-        height: auto;
-    }
-
-
-
-    #hesap{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        }
-    .hesap-link{
-        font-family: 'Raleway', sans-serif;
-        font-weight: lighter;
-        color: white;
-        background-color: black;
-        text-align: center;
-        border-radius: 50px;
-        text-decoration: none;
-        
-        
-    }
-    .facebook{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
     
-    .instagram{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
-    .twitter{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
-
-        
-   
-    #content{
-
-        position:relative;
-        
-        
-    }
-    #içerik-başlık{
-
+    .filtre-buton{
+        background-color: rgb(26, 26, 26);
         font-family: 'Poppins', sans-serif;
         font-weight: lighter;
         color: white;
-        text-align: center;       
+        text-align:left; 
     }
+
+    #içerik-başlık{
+
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
+        opacity: 60%;
+        text-align:left;  
+        z-index: -5;
+         
+    }
+
     #içerikler{   
         
         display: flex;
@@ -108,6 +64,7 @@ body{margin: 0;
         flex-wrap: wrap;
 
     }
+
     #içerik-indir{
 
         font-family: 'Poppins', sans-serif;
@@ -120,21 +77,58 @@ body{margin: 0;
         margin-right: auto;
         margin-left: auto;
         display: block;        
-        }
-        #içerik-indir:hover{
+        position: relative;
+    }
+
+    #içerik-indir:hover{
          background-color: rgb(26, 26, 26);
          border: 1px solid white;
          margin-bottom: 48px;
          color: white;
-                }
-        
+    }
 
     #end{
             
             width: 100%;
             background-color: black;
             position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
 
 
-        }
+    }
+
+    .wallpaper:hover{
+        border-color: rgba(255, 255, 255, 0.4);;
+    }
+    
+    .bilgi-link{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        opacity: 0.7;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+
+    .bilgi{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #kisisel{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: auto;
+    }
+
+    #hesaplar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+         align-items: flex-end;
+    }
 

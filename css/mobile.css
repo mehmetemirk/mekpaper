@@ -1,92 +1,107 @@
-
-#hdrlg{
+    #menu{
+        display:inline;
+        height: 30px;
+        width: 30px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    
+    #hdrlg{
     height: 30px;
-    width: 15px;
-    margin-right: 70px;}
+    width: 30px;
+    margin-right: 18px;
+    }
 
     #hdrtx{
         font-size: 15px;
     }
+
+    #header-isimarea{
+        margin-right: auto;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
     #header{
-        height: 50px;
+        min-height: 50px;
+        flex-direction: column;
         
-        }
+    }
 
-    #foto{
-        width:100%;
-     
-        }
+    #butonlar{
+        margin-bottom: 10px;
+        display: none;
+    }
 
-        .facebook{
-            margin-right: 50px;
-        }
-        .fcbk-icon{
-            width: 50px;
-            height: 50px;
-        }
-        .fcbk-link{
-            
-            font-size: 10px;
-            
-        }
-        .insta-icon{
-            width: 100px;
-            height: 100px;
-        }
-        .insta-link{
-            
-            font-size: 15px;
-            
-            
-        }
-        .twitter{
-            margin-left: 50px;
-        }
-        .twitter-icon{
-            width: 50px;
-            height: 50px;
-        }
-        .twitter-link{
-            
-            font-size: 10px;
-            
-            
-        }
+    .filtre-buton{
+    
+            font-size: 8px;
+            padding: 2px 14px;
+            border: 0.5px solid white;
+            border-radius: 5px;
+            margin-left: 15px;
+    }
 
-        .hesap-link{
-            padding: 6px 10px 6px 10px;
-        }
-        #içerik-başlık{
-            font-size: 25px;
-            padding: 20px 0px 20px 0px;
+    .filtre-buton:hover{
     
-        }
-        .wallpaper{
-            margin: 0px 15px 30px 15px;
-    
-        }
-    
-        .wallpaper-dikey{
-            
-            width: 90px;
-            height: 180px;
-    
-    
-        }
-    
-        .wallpaper-yatay{
-    
-            width: 330px;
-            height: 198px;
-        }
-        #içerik-indir{
+            border: 0.5px solid rgb(255, 255, 255);
+            background-color: white;
+            color: rgb(26, 26, 26);
+    }
+   
+    #içerik-başlık{
+        font-size: 15px;
+        margin: 75px 0px 12px 75px;
+
+    }
+ 
+    #içerik-indir{
             font-size: 8px;
             padding: 10px 20px 10px 20px;
             margin-bottom: 50px;
             width: 75px;
-            }
+    }
 
-            #end{
+    #end{
                 height: 150px;
-            }
-        
+    }
+    
+    .wallpaper{
+        margin: 0px 13px 25px 13px;
+        border: 13px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+    }
+
+    .wallpaper-dikey{
+        width: 130px;
+        height: 260px;
+    }
+    
+    .wallpaper-yatay{
+        width: 312px;
+        height: 156px;
+    }
+
+    .bilgi{
+        margin-bottom: 6px;
+    }
+
+    .bilgi-link{
+        font-size: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .bilgi-icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    #kisisel{
+        margin-left: 30px;
+    }
+
+    #hesaplar{
+        margin-right: 30px;
+    }
