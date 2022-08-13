@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MEHMET EMİR KARAKURT">
+    <title>MekPaper</title>
+    <link rel="icon" type="image/x-icon" href="img/MAKPAPER LOGO.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <!-- Css Dosyaları-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="css/mini-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px) and (min-width: 400px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) and (min-width: 750px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 1600px) and (min-width: 1000px)" href="css/laptop.css">
+    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="css/desk.css">
+
+    <!-- Fontlar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body ondragstart="return false" onselectstart="return false">
+
+
+    <div id="header">
+
+        <div id="header-isimarea">
+
+            <img onclick=filtreler() id="menu" src="img/Menu.png">
+
+            <img id="hdrlg" src="img/MAKPAPER LOGO.png">
+
+            <h1 id="hdrtx">MekPaper</h1>
+
+        </div>
+
+        <div id="butonlar">
+            <div onclick=filtretemizle() id="tümü" class="tümü-buton filtre-buton">Tümü</div>
+            <div onclick=filtrefonksiyon(light) id="light" class="light-buton filtre-buton">Aydınlık</div>
+            <div onclick=filtrefonksiyon(dark) id="dark" class="dark-buton filtre-buton">Karanlık</div>
+            <div onclick=filtrefonksiyon(color) id="color" class="color-buton filtre-buton">Renkli</div>
+        </div>
+
+    </div>
+
+
+    <div id="popup">
+        <img id="popup-img" src="" alt="">
+        <div id="popup-yan">
+            <span id="popup-isim"></span>
+            <a onclick=indir() id="popup-indir-buton" class="indir" href="" download>Duvar Kağıdını İndir</a>
+            <button onclick=popupkapa() id="popup-geri-buton" class="indir">Diğerlerine Göz At</button>
+        </div>
+    </div>
+
+    <div id="içerikler">
+
+
+        <img onclick=popupac(1) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/aklydrk.png">
+        <img onclick=popupac(2) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/aplpz.png">
+        <img onclick=popupac(3) class="wallpaper wallpaper-dikey color" src="./img/goruntulenen-ıcerık/bğdylr.png">
+        <img onclick=popupac(4) class="wallpaper wallpaper-dikey color" src="./img/goruntulenen-ıcerık/clrskllr.png">
+        <img onclick=popupac(5) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/cptnmrc.png">
+        <img onclick=popupac(6) class="wallpaper wallpaper-dikey light" src="./img/goruntulenen-ıcerık/aklylght.png">
+        <img onclick=popupac(7) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/czglclr.png">
+        <img onclick=popupac(8) class="wallpaper wallpaper-dikey color" src="./img/goruntulenen-ıcerık/dgfrst.png">
+        <img onclick=popupac(9) class="wallpaper wallpaper-dikey color" src="./img/goruntulenen-ıcerık/dğrmn.png">
+        <img onclick=popupac(10) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/gglecrplm.png">
+        <img onclick=popupac(11) class="wallpaper wallpaper-dikey light" src="./img/goruntulenen-ıcerık/grnnmxr.png">
+        <img onclick=popupac(12) class="wallpaper wallpaper-dikey light" src="./img/goruntulenen-ıcerık/jblksk.png">
+        <img onclick=popupac(13) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/lrmpsmdrk.png">
+        <img onclick=popupac(14) class="wallpaper wallpaper-dikey light" src="./img/goruntulenen-ıcerık/lrmpsmlght.png">
+        <img onclick=popupac(15) class="wallpaper wallpaper-yatay color" src="./img/goruntulenen-ıcerık/mnzryty.png">
+        <img onclick=popupac(16) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/pwrbtn.png">
+        <img onclick=popupac(17) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/rgbsc.png">
+        <img onclick=popupac(18) class="wallpaper wallpaper-dikey dark" src="./img/goruntulenen-ıcerık/rkrctr.png">
+
+
+    </div>
+
+
+
+
+    <div id="end">
+
+
+        <div id="kisisel">
+
+            <div class="bilgi">
+                <img class="bilgi-icon" src="img/Gmail white.png" alt="e-posta">
+                <a class="bilgi-link" target="_blank"
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJXLRPqXSRZFDvtvTkNQLrlFJHGWlxfvDZDtsrQqVRSpNBmXwRrbgmshfDxpdWmWGSLq">karakurt2410@gmail.com</a>
+            </div>
+
+            <div class="bilgi">
+                <img class="bilgi-icon" src="img/Facebook white.png" alt="facebook">
+                <a class="bilgi-link" href="https://www.facebook.com/mehmetemir.karakurt" target="_blank">Mehmet Emir Karakurt</a>
+            </div>
+
+            <div class="bilgi">
+                <img class="bilgi-icon" src="img/Instagram white.png" alt="instagram">
+                <a class="bilgi-link" href="https://www.instagram.com/m.emir.0/" target="_blank">m.emir.0</a>
+            </div>
+
+            <div class="bilgi">
+                <img class="bilgi-icon" src="img/Instagram white.png" alt="instagram">
+                <a class="bilgi-link" href="https://www.instagram.com/mek.photo_shop/" target="_blank">mek.photo_shop</a>
+            </div>
+
+            <div class="bilgi">
+                <img class="bilgi-icon" src="img/Twitter white.png" alt="twitter">
+                <a class="bilgi-link" href="https://twitter.com/m_emir_0" target="_blank">m_emir_0</a>
+            </div>
+
+
+        </div>
+
+        <div id="hesaplar">
+
+            <div class="bilgi">
+                <a class="bilgi-link" href="https://www.instagram.com/digitalakulay/" target="_blank">digitalakulay</a>
+                <img class="bilgi-icon" src="img/akulay logo beyaz ikon png.png" alt="digitalakulay">
+            </div>
+
+            <div class="bilgi">
+                <a class="bilgi-link" href="https://www.instagram.com/infinite.photos/" target="_blank">infinite.photos</a>
+                <img class="bilgi-icon" src="img/infinite photos logo png.png" alt="infinite.photos">
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
