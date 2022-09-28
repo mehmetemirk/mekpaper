@@ -67,7 +67,7 @@
 
     #end {
         width: 100%;
-        background-color: black;
+        background-color: rgb(15, 15, 15);
         position: absolute;
         display: flex;
         flex-direction: row;
@@ -91,6 +91,10 @@
         opacity: 0.7;
         text-decoration: none;
         font-weight: lighter;
+    }
+
+    .bilgi-link:hover{
+        color: white;
     }
 
     .bilgi {
@@ -137,6 +141,11 @@
         background-color: white;
         text-align: center;
         text-decoration: none;
+        color: black;
+        
+        
+    }
+    .indir:hover{
         color: black;
     }
 
