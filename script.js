@@ -70,22 +70,22 @@ function popupac(deger) {
     else if (deger == 2) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER aplpz.png')
         risim.src="./img/goruntulenen-ıcerık/aplpz.png"
-        isim.innerHTML="Apple Pizza"
+        isim.innerHTML="PizzApple"
     }
     else if (deger == 3) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER bğdylr.png')
         risim.src="./img/goruntulenen-ıcerık/bğdylr.png"
-        isim.innerHTML="Sarı Buğday"
+        isim.innerHTML="YelloWheat"
     }
     else if (deger == 4) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER clrskllr.png')
         risim.src="./img/goruntulenen-ıcerık/clrskllr.png"
-        isim.innerHTML="Renkler"
+        isim.innerHTML="Rainbow"
     }
     else if (deger == 5) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER cptnmrc.png')
         risim.src="./img/goruntulenen-ıcerık/cptnmrc.png"
-        isim.innerHTML="Kaptan Amerika"
+        isim.innerHTML="Captain America"
     }
     else if (deger == 6) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER aklylght.png')
@@ -95,22 +95,22 @@ function popupac(deger) {
     else if (deger == 7) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER czglclr.png')
         risim.src="./img/goruntulenen-ıcerık/czglclr.png"
-        isim.innerHTML="Gökkuşağı"
+        isim.innerHTML="Color Wave"
     }
     else if (deger == 8) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER dgfrst.png')
         risim.src="./img/goruntulenen-ıcerık/dgfrst.png"
-        isim.innerHTML="Dağ Manzarası"
+        isim.innerHTML="First"
     }
     else if (deger == 9) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER dğrmn.png')
         risim.src="./img/goruntulenen-ıcerık/dğrmn.png"
-        isim.innerHTML="Hollanda Değirmeni"
+        isim.innerHTML="Holland"
     }
     else if (deger == 10) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER gglecrplm.png')
         risim.src="./img/goruntulenen-ıcerık/gglecrplm.png"
-        isim.innerHTML="Eriyen Google"
+        isim.innerHTML="Molten Google"
     }
     else if (deger == 11) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER grnnmxr.png')
@@ -120,7 +120,7 @@ function popupac(deger) {
     else if (deger == 12) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER jblksk.png')
         risim.src="./img/goruntulenen-ıcerık/jblksk.png"
-        isim.innerHTML="Kesik JBL"
+        isim.innerHTML="JamesBL"
     }
     else if (deger == 13) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER lrmpsmdrk.png')
@@ -135,12 +135,12 @@ function popupac(deger) {
     else if (deger == 15) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER mnzryty.png')
         risim.src="./img/goruntulenen-ıcerık/mnzryty.png"
-        isim.innerHTML="Manzara (Yatay)"
+        isim.innerHTML="Mountain Landscape"
     }
     else if (deger == 16) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER pwrbtn.png')
         risim.src="./img/goruntulenen-ıcerık/pwrbtn.png"
-        isim.innerHTML="Mavi Güç"
+        isim.innerHTML="Cyan Power"
     }
     else if (deger == 17) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER rgbsc.png')
@@ -150,7 +150,17 @@ function popupac(deger) {
     else if (deger == 18) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER rkrctr.png')
         risim.src="./img/goruntulenen-ıcerık/rkrctr.png"
-        isim.innerHTML="Ark Reaktörü"
+        isim.innerHTML="Arc Reactor"
+    }
+    else if (deger == 19) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER mrdvn.png')
+        risim.src="./img/goruntulenen-ıcerık/mrdvn.png"
+        isim.innerHTML="Perspective"
+    }
+    else if (deger == 20) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER pncr.png')
+        risim.src="./img/goruntulenen-ıcerık/pncr.png"
+        isim.innerHTML="UnRecap"
     }
 
 
