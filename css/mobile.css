@@ -1,141 +1,151 @@
-    #menu{
-        display:inline;
-        height: 30px;
-        width: 30px;
-        margin-right: 25px;
-        margin-left: 25px;
-    }
-    
-    #hdrlg{
-    height: 30px;
-    width: 30px;
-    margin-right: 18px;
+    body {
+        margin: 0;
+        background-color: rgb(26, 26, 26);
     }
 
-    #hdrtx{
-        font-size: 15px;
+    #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(20, 20, 20);
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 2;
     }
 
-    #header-isimarea{
-        margin-right: auto;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        margin-top: 15px;
+    #header-isimarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
 
-    #header{
-        min-height: 50px;
-        flex-direction: column;
-        
-    }
-    #içerikler{margin-top: 70px;}
-
-
-    #butonlar{
-        margin-bottom: 10px;
-        display: none;
-    }
-
-    .filtre-buton{
-    
-            font-size: 10px;
-            padding: 4px 18px;
-            border: 0.5px solid white;
-            border-radius: 5px;
-            margin-left: 15px;
-    }
-
-    .filtre-buton:hover{
-    
-            border: 0.5px solid rgb(255, 255, 255);
-            background-color: white;
-            color: rgb(20, 20, 20);
-    }
-   
-    #içerik-başlık{
-        font-size: 15px;
-        margin: 75px 0px 12px 75px;
+    #hdrlg {
+        margin-top: auto;
+        margin-bottom: auto;
 
     }
- 
-    #içerik-indir{
-            font-size: 8px;
-            padding: 10px 20px 10px 20px;
-            margin-bottom: 50px;
-            width: 75px;
+
+    #hdrtx {
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
-    #end{
-                height: 150px;
+    .filtre-buton {
+        background-color: rgb(20, 20, 20);
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        color: white;
+        text-align: left;
     }
-    
+
+    #içerik-başlık {
+
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
+        opacity: 60%;
+        text-align: left;
+        z-index: -5;
+
+    }
+
+    #içerikler {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100px;
+        flex-wrap: wrap;
+
+    }
+
+    #end {
+        width: 100%;
+        background-color: rgb(15, 15, 15);
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     .wallpaper{
-        margin: 0px 13px 25px 13px;
-        border: 13px solid rgba(255, 255, 255, 0.5);
-        border-radius: 15px;
-    }
-
-    .wallpaper-dikey{
-        width: 130px;
-        height: 260px;
-    }
-    
-    .wallpaper-yatay{
-        width: 312px;
-        height: 156px;
-    }
-
-    .bilgi{
-        margin-bottom: 6px;
-    }
-
-    .bilgi-link{
-        font-size: 10px;
-        margin-left: 6px;
-        margin-right: 6px;
-    }
-
-    .bilgi-icon{
-        height: 20px;
-        width: 20px;
-    }
-
-    #kisisel{
-        margin-left: 30px;
-    }
-
-    #hesaplar{
-        margin-right: 30px;
-    }
-    #popup{
+        display: flex;
         flex-direction: column;
-        border-radius: 28px;
-        margin: 10% 20%;
-        height: 65%;
-        width: 60%;
+        justify-content: center;
+        align-items: center;
     }
-    
-    #popup-img{
-        height: 300px;
-        width: 150px;
-        border-radius: 14px;
+    .wallpaper:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+
     }
-    #popup-yan{
-        margin-top: 40px;
+
+    .bilgi-link {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        opacity: 0.7;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+
+    .bilgi-link:hover{
+        color: white;
+    }
+
+    .bilgi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #kisisel {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: auto;
+    }
+
+    #hesaplar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #popup{
+        z-index: 1;
+        background-color: rgba(26, 26, 26, 1);
+        display: none;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
     }
     #popup-isim{
-        font-size: 12px;
-        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        color: white;
     }
-    #popup-indir-buton{
-        margin-bottom: 6px;
+    #popup-yan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .indir{
-        font-size: 12px;
-        border: 1px solid rgb(21, 21, 21);
-        border-radius: 6px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        width: 180px;
+        background-color: white;
         text-align: center;
+        text-decoration: none;
+        color: black;
+        
+        
     }
+    .indir:hover{
+        color: black;
+    }
+
