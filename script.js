@@ -162,6 +162,16 @@ function popupac(deger) {
         risim.src="./img/goruntulenen-ıcerık/pncr.png"
         isim.innerHTML="UnRecap"
     }
+     else if (deger == 21) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER stvjbs.png')
+        risim.src="./img/goruntulenen-ıcerık/stvjbs.png"
+        isim.innerHTML="Steve Jobs"
+    }
+    else if (deger == 22) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER arsnlpn.png')
+        risim.src="./img/goruntulenen-ıcerık/arsnlpn.png"
+        isim.innerHTML="LUPIN"
+    }
 
 
 }
