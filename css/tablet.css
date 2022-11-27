@@ -7,9 +7,9 @@
     }
     
     #hdrlg{
-    height: 40px;
-    width: 40px;
-    margin-right: 30px;
+    height: 45px;
+    width: 45px;
+    margin-right: 12px;
 
     }
 
@@ -101,12 +101,10 @@
     }
 
     #kisisel{
+        margin-right: 75px;
         margin-left: 50px;
     }
 
-    #hesaplar{
-        margin-right: 50px;
-    }
     #popup{
         flex-direction: row;
         border-radius: 36px;
