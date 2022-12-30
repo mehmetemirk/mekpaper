@@ -172,6 +172,11 @@ function popupac(deger) {
         risim.src="./img/goruntulenen-ıcerık/arsnlpn.png"
         isim.innerHTML="LUPIN"
     }
+    else if (deger == 23) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/MEKPAPER 2023.png')
+        risim.src="./img/goruntulenen-ıcerık/2023.png"
+        isim.innerHTML="Special For 2023"
+    }
 
 
 }
