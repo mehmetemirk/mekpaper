@@ -192,7 +192,7 @@ function popupac(deger) {
     else if (deger == 103) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/Totem of Undying (collection).png')
         risim.src="./img/goruntulenen-ıcerık/mcttm.png"
-        isim.innerHTML="It Can Save You"
+        isim.innerHTML="Cheating Death"
     }
     else if (deger == 104) {
         indir.setAttribute('href', 'img/ındırılen-ıcerık/Painting (collection).png')
