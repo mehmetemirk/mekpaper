@@ -219,6 +219,36 @@ function popupac(deger) {
         risim.src="./img/goruntulenen-ıcerık/mcnmls.png"
         isim.innerHTML="AnimalS"
     }
+    else if (deger == 201) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/hg(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brhg.png"
+        isim.innerHTML="Heisenberg"
+    }
+    else if (deger == 202) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/pn(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brpn.png"
+        isim.innerHTML="Pinkman"
+    }
+    else if (deger == 203) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/br(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brbr.png"
+        isim.innerHTML="Breaking Bad"
+    }
+    else if (deger == 204) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/saymyname(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brsaymyname.png"
+        isim.innerHTML="Names"
+    }
+    else if (deger == 205) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/walterwhite(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brwalterwhite.png"
+        isim.innerHTML="Walt"
+    }
+    else if (deger == 206) {
+        indir.setAttribute('href', 'img/ındırılen-ıcerık/tuco(collection).png')
+        risim.src="./img/goruntulenen-ıcerık/brtuco.png"
+        isim.innerHTML="Tuco"
+    }
 
 
 
